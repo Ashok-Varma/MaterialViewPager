@@ -25,7 +25,7 @@ And have a look on a sample Youtube Video : [Youtube Link](http://www.youtube.co
 
 In your module [![Download](https://api.bintray.com/packages/florent37/maven/MaterialViewPager/images/download.svg)](https://bintray.com/florent37/maven/MaterialViewPager/_latestVersion)
 ```groovy
-compile ('com.github.florent37:materialviewpager:1.1.0@aar'){
+compile ('com.github.florent37:materialviewpager:1.1.2@aar'){
     transitive = true
 }
 ```
@@ -501,6 +501,10 @@ And must include @layout/material_view_pager_placeholder as first child
 
 #CHANGELOG
 
+##1.1.2
+- quick scroll fix
+- can set a custom viewpager with app:viewpager_viewpager (the viewpager id must be id/materialviewpager_viewpager)
+
 ##1.1.0
 - orientation change fix
 - header image display fix
@@ -583,7 +587,7 @@ Tell me if you're using my library in your application, I'll share it in this RE
 
 #Credits
 
-Author: Florent Champigny www.florentchampigny.com/
+Author: Florent Champigny [http://www.florentchampigny.com/](http://www.florentchampigny.com/)
 
 <a href="https://plus.google.com/+florentchampigny">
   <img alt="Follow me on Google+"
